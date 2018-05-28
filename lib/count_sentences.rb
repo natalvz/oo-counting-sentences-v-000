@@ -29,7 +29,6 @@ class String
   end
 
   def count_sentences
-    sentences = []
-    sentences << self.split(%r{.!?\s*}).length
+    self.split(%r{.!?\s*}).length
   end
 end
