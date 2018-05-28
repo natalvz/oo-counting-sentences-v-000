@@ -29,10 +29,6 @@ class String
   end
 
   def count_sentences
-    sentence = []
-    sentence.count { |sentences|
-    sentences << self.split(%r{.!?\s*})
-     
-    
+    self.split(/[.!?]+/).count
   end
 end
