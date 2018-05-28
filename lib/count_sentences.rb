@@ -31,7 +31,7 @@ class String
   def count_sentences
     sentence = []
     sentence.count { |sentences|
-    sentence << self.split(%r{.!?\s*})
+    sentences << self.split(%r{.!?\s*})
      
     
   end
