@@ -30,8 +30,9 @@ class String
 
   def count_sentences
     sentence = []
+    sentence.count
     sentence << self.split(%r{.!?\s*})
-    sentence.count 
+     
     
   end
 end
