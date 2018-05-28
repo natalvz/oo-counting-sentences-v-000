@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     sentence = []
-    sentence.count
+    sentence.count { |sentences|
     sentence << self.split(%r{.!?\s*})
      
     
