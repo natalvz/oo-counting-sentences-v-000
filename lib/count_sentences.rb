@@ -30,5 +30,6 @@ class String
 
   def count_sentences
     self.split(%r{.!?\s*})
+    
   end
 end
